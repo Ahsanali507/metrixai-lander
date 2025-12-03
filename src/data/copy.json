@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "siteName": "MetrixAI",
+    "tagline": "AI-Powered Talent Intelligence Platform",
+    "description": "MetrixAI is the first AI-powered Talent Intelligence Platform that brings career pathing, skill mapping, development plans, coaching and succession planning together in one place."
+  },
+  "nav": {
+    "links": [
+      { "label": "Features", "href": "/#features" },
+      { "label": "How It Works", "href": "/#how-it-works" },
+      { "label": "Pricing", "href": "/pricing" },
+      { "label": "About", "href": "/about" }
+    ],
+    "cta": { "label": "Request Demo", "href": "/demo" }
+  },
+  "hero": {
+    "headline": "AI-Powered Talent Intelligence Platform",
+    "subheadline": "MetrixAI brings career pathing, skill mapping, development plans, coaching and succession planning together in one place.",
+    "description": "Unlock the full potential of your workforce with intelligent insights that drive retention, growth, and organizational success.",
+    "primaryCta": { "label": "Request a Full Demo", "href": "/demo" },
+    "secondaryCta": { "label": "Watch Demo Video", "href": "#demo-video" }
+  },
+  "problem": {
+    "headline": "The Hidden Cost of Employee Turnover",
+    "subheadline": "Organizations lose millions annually to preventable attrition and missed internal mobility opportunities.",
+    "stats": [
+      {
+        "value": "213%",
+        "label": "Cost to replace a highly trained employee",
+        "source": "Center for American Progress"
+      },
+      {
+        "value": "6x",
+        "label": "More expensive to hire externally than develop internally",
+        "source": "Josh Bersin Research"
+      },
+      {
+        "value": "70%",
+        "label": "Of employees would stay longer with better development",
+        "source": "LinkedIn Workplace Learning Report"
+      }
+    ],
+    "description": "Traditional HR systems fail to connect employee skills with opportunities. MetrixAI bridges this gap with AI-powered insights."
+  },
+  "features": {
+    "headline": "How MetrixAI Works",
+    "subheadline": "Four powerful steps to transform your talent strategy",
+    "steps": [
+      {
+        "title": "Resume Upload",
+        "description": "Import employee profiles, resumes, and existing HR data. Our AI processes and normalizes information across your entire workforce.",
+        "icon": "upload"
+      },
+      {
+        "title": "AI Skill Analysis",
+        "description": "Advanced AI maps skills, identifies gaps, and discovers hidden talents across your organization in real-time.",
+        "icon": "brain"
+      },
+      {
+        "title": "Personalized Development Plans",
+        "description": "Generate tailored learning paths and development recommendations for every employee based on their goals and company needs.",
+        "icon": "target"
+      },
+      {
+        "title": "Succession Dashboards",
+        "description": "Visualize talent pipelines, identify high-potential employees, and ensure leadership continuity with predictive analytics.",
+        "icon": "chart"
+      }
+    ]
+  },
+  "personas": {
+    "headline": "Built for Everyone in Your Organization",
+    "subheadline": "MetrixAI delivers value across all levels of your workforce",
+    "cards": [
+      {
+        "title": "HR & L&D Leaders",
+        "icon": "users",
+        "benefits": [
+          "Unified view of organizational talent and skills",
+          "Data-driven succession planning",
+          "Automated development recommendations"
+        ]
+      },
+      {
+        "title": "Managers",
+        "icon": "briefcase",
+        "benefits": [
+          "Identify team skill gaps instantly",
+          "Build personalized growth plans",
+          "Discover internal candidates for open roles"
+        ]
+      },
+      {
+        "title": "Employees",
+        "icon": "user",
+        "benefits": [
+          "Clear career path visibility",
+          "Personalized learning recommendations",
+          "Skills-based opportunity matching"
+        ]
+      }
+    ]
+  },
+  "benefits": {
+    "headline": "Why Choose MetrixAI",
+    "subheadline": "Enterprise-ready platform built for modern talent management",
+    "cards": [
+      {
+        "title": "Unified Talent Dashboard",
+        "description": "Single source of truth for all talent data, skills, and development progress across your organization.",
+        "icon": "layout-dashboard"
+      },
+      {
+        "title": "Strategic Succession Planning",
+        "description": "Identify and develop future leaders with AI-powered insights and predictive analytics.",
+        "icon": "trending-up"
+      },
+      {
+        "title": "AI-Powered Skill Matching",
+        "description": "Automatically match employees to opportunities, projects, and roles based on skills and potential.",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Enterprise Security & Scale",
+        "description": "SOC 2 compliant, SSO integration, and built to scale with organizations of any size.",
+        "icon": "shield-check"
+      }
+    ]
+  },
+  "stats": {
+    "headline": "Proven Results",
+    "items": [
+      { "value": "40%", "label": "Faster Internal Promotions" },
+      { "value": "3x", "label": "Increase in Internal Mobility" },
+      { "value": "25%", "label": "Reduction in Turnover" },
+      { "value": "5x", "label": "ROI on Training Investment" }
+    ],
+    "disclaimer": "Results based on customer case studies. Individual results may vary."
+  },
+  "pricing": {
+    "headline": "Simple, Transparent Pricing",
+    "subheadline": "Choose the plan that fits your organization",
+    "plans": [
+      {
+        "name": "Core",
+        "description": "Essential talent intelligence for growing teams",
+        "price": "Contact Us",
+        "period": "",
+        "features": [
+          "Up to 500 employees",
+          "AI skill mapping",
+          "Basic career pathing",
+          "Development recommendations",
+          "Standard support",
+          "Email integration"
+        ],
+        "cta": "Get Started",
+        "popular": false
+      },
+      {
+        "name": "Growth",
+        "description": "Advanced features for scaling organizations",
+        "price": "Contact Us",
+        "period": "",
+        "features": [
+          "Up to 2,500 employees",
+          "Everything in Core, plus:",
+          "Advanced succession planning",
+          "Custom skill taxonomies",
+          "API access",
+          "Priority support",
+          "SSO integration"
+        ],
+        "cta": "Get Started",
+        "popular": true
+      },
+      {
+        "name": "Enterprise",
+        "description": "Full platform for large organizations",
+        "price": "Custom",
+        "period": "",
+        "features": [
+          "Unlimited employees",
+          "Everything in Growth, plus:",
+          "Dedicated success manager",
+          "Custom integrations",
+          "Advanced analytics",
+          "SLA guarantee",
+          "On-premise option"
+        ],
+        "cta": "Contact Sales",
+        "popular": false
+      }
+    ]
+  },
+  "launch": {
+    "headline": "Be Part of the Launch",
+    "subheadline": "Join our early access program and shape the future of talent intelligence",
+    "benefits": [
+      {
+        "title": "Priority Demo Access",
+        "description": "Be among the first to see MetrixAI in action with a personalized demo."
+      },
+      {
+        "title": "Dedicated Onboarding",
+        "description": "Get white-glove setup and training from our founding team."
+      },
+      {
+        "title": "Influence the Roadmap",
+        "description": "Your feedback directly shapes our product development priorities."
+      },
+      {
+        "title": "Founding Member Pricing",
+        "description": "Lock in exclusive pricing as an early adopter."
+      }
+    ],
+    "form": {
+      "title": "Request Early Access",
+      "fields": ["name", "email", "company", "role"],
+      "submitLabel": "Join the Waitlist"
+    }
+  },
+  "cta": {
+    "headline": "Ready to Transform Your Talent Strategy?",
+    "subheadline": "Join forward-thinking organizations already using MetrixAI",
+    "primaryCta": { "label": "Request a Demo", "href": "/demo" },
+    "secondaryCta": { "label": "Contact Sales", "href": "mailto:info@metrixai.io" }
+  },
+  "footer": {
+    "description": "MetrixAI is the first AI-powered Talent Intelligence Platform that brings career pathing, skill mapping, development plans, coaching and succession planning together in one place.",
+    "links": {
+      "product": [
+        { "label": "Features", "href": "/#features" },
+        { "label": "Pricing", "href": "/pricing" },
+        { "label": "Demo", "href": "/demo" }
+      ],
+      "company": [
+        { "label": "About", "href": "/about" },
+        { "label": "Contact", "href": "mailto:info@metrixai.io" }
+      ],
+      "legal": [
+        { "label": "Privacy Policy", "href": "/privacy" },
+        { "label": "Terms of Service", "href": "/terms" }
+      ]
+    },
+    "contact": {
+      "email": "info@metrixai.io"
+    },
+    "copyright": "MetrixAI. All rights reserved."
+  }
+}
