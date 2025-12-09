@@ -55,11 +55,11 @@ export default function PricingPage() {
               },
               {
                 q: "What payment methods do you accept?",
-                a: "We accept all major credit cards, ACH transfers, and can accommodate enterprise billing requirements.",
+                a: "We accept ACH transfers, wire transfers, and can accommodate enterprise billing requirements.",
               },
               {
-                q: "Is there a long-term contract?",
-                a: "We offer both annual and multi-year contracts with flexible terms. Monthly billing is available for Growth plans.",
+                q: "What billing options are available?",
+                a: "We offer both monthly and annual billing. Annual billing provides a discount compared to monthly payments. Multi-year contracts with flexible terms are also available.",
               },
             ].map((item) => (
               <div

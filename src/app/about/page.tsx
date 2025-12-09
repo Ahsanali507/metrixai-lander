@@ -64,28 +64,20 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
           <div className="prose prose-lg text-gray-600">
-            <p className="mb-4">
-              MetrixAI was founded on a simple observation: organizations were
-              losing their best people not because of compensation or benefits,
-              but because employees couldn&apos;t see a clear path forward.
+            <p className="mb-4 text-lg font-medium text-gray-800">
+              MetrixAI was founded on one simple observation: there is a lack of visibility into our internal talent.
             </p>
             <p className="mb-4">
-              Traditional HR systems track employee data but fail to connect
-              skills with opportunities. Managers struggle to identify who&apos;s
-              ready for promotion. Employees leave because they can&apos;t see how to
-              grow. And HR leaders lack the insights needed to build effective
-              talent pipelines.
+              HR leaders face a constant challenge: building strong talent pipelines while preventing costly turnover. Traditional systems track data but don&apos;t solve the real problem—helping HR professionals connect skills to opportunities in a way that drives retention and growth.
             </p>
             <p className="mb-4">
-              We built MetrixAI to change this. By combining advanced AI with
-              deep HR expertise, we&apos;ve created a platform that makes talent
-              intelligence accessible to every organization—not just the
-              Fortune 500.
+              MetrixAI was created to change that. We give HR leaders the insights they need to identify hidden skills, spot promotion readiness, and design career paths that keep employees engaged. Instead of relying on guesswork, HR professionals can make confident, data-driven decisions about succession planning, workforce agility, and internal mobility.
+            </p>
+            <p className="mb-4">
+              For employees, this means clarity. They can finally see how their skills translate into future opportunities, making career growth visible and achievable. For HR, it means solving the problem at the source: empowering people while strengthening the organization.
             </p>
             <p>
-              Today, MetrixAI helps organizations of all sizes understand their
-              workforce at a deeper level, enabling data-driven decisions about
-              career development, succession planning, and internal mobility.
+              By combining advanced AI with deep HR expertise, MetrixAI makes talent intelligence accessible to every organization—not just the Fortune 500. Today, we help HR leaders transform workforce data into actionable strategies that unlock potential, reduce attrition, and build resilient teams.
             </p>
           </div>
         </div>

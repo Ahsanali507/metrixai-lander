@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui";
@@ -58,9 +59,13 @@ export function Header() {
               href="/"
               className="flex items-center gap-2 text-xl font-bold text-gray-900"
             >
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-violet-600 rounded-lg flex items-center justify-center">
-                <span className="text-white text-sm font-bold">M</span>
-              </div>
+              <Image
+                src="/metrix-logo.png"
+                alt="MetrixAI"
+                width={36}
+                height={36}
+                className="w-8 h-8 sm:w-9 sm:h-9"
+              />
               <span>MetrixAI</span>
             </Link>
 
@@ -128,9 +133,13 @@ export function Header() {
                     className="flex items-center gap-2 text-xl font-bold"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-violet-600 rounded-lg flex items-center justify-center">
-                      <span className="text-white text-sm font-bold">M</span>
-                    </div>
+                    <Image
+                      src="/metrix-logo.png"
+                      alt="MetrixAI"
+                      width={32}
+                      height={32}
+                      className="w-8 h-8"
+                    />
                     <span>MetrixAI</span>
                   </Link>
                   <button

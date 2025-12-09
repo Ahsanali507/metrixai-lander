@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const footerLinks = {
   product: [
@@ -28,9 +29,13 @@ export function Footer() {
             {/* Brand */}
             <div className="col-span-2 sm:col-span-2 lg:col-span-2 mb-4 sm:mb-0">
               <Link href="/" className="inline-flex items-center gap-2 text-lg sm:text-xl font-bold mb-3 sm:mb-4">
-                <div className="w-7 h-7 sm:w-8 sm:h-8 bg-gradient-to-br from-blue-500 to-violet-500 rounded-lg flex items-center justify-center">
-                  <span className="text-white text-xs sm:text-sm font-bold">M</span>
-                </div>
+                <Image
+                  src="/metrix-logo.png"
+                  alt="MetrixAI"
+                  width={32}
+                  height={32}
+                  className="w-7 h-7 sm:w-8 sm:h-8"
+                />
                 <span>MetrixAI</span>
               </Link>
               <p className="text-sm sm:text-base text-gray-400 max-w-sm leading-relaxed">
