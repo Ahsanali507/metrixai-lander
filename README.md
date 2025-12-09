@@ -21,7 +21,7 @@ A modern, high-polish marketing website for MetrixAI - an AI-powered Talent Inte
 - `/pricing` - Pricing plans with FAQ
 - `/about` - Company mission and values
 - `/privacy` - Privacy Policy
-- `/terms` - Terms of Service
+- `/terms` - Terms of Service.
 
 ## Getting Started
 
