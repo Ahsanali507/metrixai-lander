@@ -60,7 +60,7 @@ export function Header() {
               className="flex items-center gap-2 text-xl font-bold text-gray-900"
             >
               <Image
-                src="/metrix-logo.png"
+                src="/metrix-logo-main.png"
                 alt="MetrixAI"
                 width={36}
                 height={36}
@@ -134,7 +134,7 @@ export function Header() {
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     <Image
-                      src="/metrix-logo.png"
+                      src="/metrix-logo-main.png"
                       alt="MetrixAI"
                       width={32}
                       height={32}

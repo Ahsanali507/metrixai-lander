@@ -30,7 +30,7 @@ export function Footer() {
             <div className="col-span-2 sm:col-span-2 lg:col-span-2 mb-4 sm:mb-0">
               <Link href="/" className="inline-flex items-center gap-2 text-lg sm:text-xl font-bold mb-3 sm:mb-4">
                 <Image
-                  src="/metrix-logo.png"
+                  src="/metrix-logo-main.png"
                   alt="MetrixAI"
                   width={32}
                   height={32}
