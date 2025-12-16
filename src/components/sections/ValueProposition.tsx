@@ -64,7 +64,7 @@ export function ValueProposition() {
               <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
                 <div style={{ position: "relative", paddingBottom: "56.25%", height: 0 }}>
                   <iframe
-                    src="https://www.loom.com/embed/b3cd261aa4944959bc5f2c563019fa9c?sid=auto"
+                    src="https://www.loom.com/embed/d653c1da05f345c6ace594116c9d2755?sid=auto"
                     allowFullScreen
                     style={{
                       position: "absolute",
