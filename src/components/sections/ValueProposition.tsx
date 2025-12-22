@@ -52,7 +52,7 @@ export function ValueProposition() {
             </Link>
           </motion.div>
 
-          {/* Right Content - Loom Video */}
+          {/* Right Content - Demo Video */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -62,20 +62,12 @@ export function ValueProposition() {
           >
             <div className="w-full max-w-lg">
               <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
-                <div style={{ position: "relative", paddingBottom: "56.25%", height: 0 }}>
-                  <iframe
-                    src="https://www.loom.com/embed/d653c1da05f345c6ace594116c9d2755?sid=auto"
-                    allowFullScreen
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      width: "100%",
-                      height: "100%",
-                      border: "none"
-                    }}
-                  />
-                </div>
+                <video
+                  src="/final-demo.mp4"
+                  controls
+                  playsInline
+                  className="w-full h-auto"
+                />
               </div>
               <p className="text-blue-200 text-sm sm:text-base text-center mt-3 sm:mt-4">
                 watch a short demo
