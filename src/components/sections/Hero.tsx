@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Play, ArrowRight } from "lucide-react";
-import { Button, Badge } from "@/components/ui";
+import { Button } from "@/components/ui";
 
 export function Hero() {
   return (
@@ -24,19 +24,26 @@ export function Hero() {
             transition={{ duration: 0.6 }}
             className="text-center lg:text-left"
           >
-            <Badge variant="primary" className="inline-flex mb-4 sm:mb-6">
-              Now in Early Access
-            </Badge>
+            {/* Layer 1 - Brand */}
+            <div className="text-lg sm:text-xl font-semibold text-blue-600 mb-2">
+              MetrixAI
+            </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4 sm:mb-6">
-              AI-Powered{" "}
+            {/* Layer 2 - Category */}
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-3 sm:mb-4">
+              The{" "}
               <span className="gradient-text">Talent Intelligence</span>{" "}
               Platform
             </h1>
 
-            <p className="text-base sm:text-lg lg:text-xl text-gray-600 mb-6 sm:mb-8 leading-relaxed max-w-xl mx-auto lg:mx-0">
-              MetrixAI brings career pathing, skill mapping, development plans,
-              coaching and succession planning together in one place.
+            {/* Layer 3 - Meaning */}
+            <p className="text-lg sm:text-xl lg:text-2xl font-medium text-gray-700 mb-4 sm:mb-6 max-w-xl mx-auto lg:mx-0">
+              Powering internal growth through readiness, mobility, and talent-driven decisions.
+            </p>
+
+            {/* Supporting Paragraph */}
+            <p className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 leading-relaxed max-w-xl mx-auto lg:mx-0">
+              Most organizations don&apos;t lack talent — they lack visibility. MetrixAI helps companies clearly see employee skills, readiness, and growth potential so leaders can make confident decisions about development, mobility, and internal advancement — without relying on gut feel or familiarity.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-10 justify-center lg:justify-start">

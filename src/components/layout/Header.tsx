@@ -84,11 +84,6 @@ export function Header() {
 
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-4">
-              <Link href="/launch">
-                <Button variant="ghost" size="sm">
-                  Early Access
-                </Button>
-              </Link>
               <Link href="/demo">
                 <Button size="sm">Request Demo</Button>
               </Link>
@@ -166,15 +161,6 @@ export function Header() {
                 </nav>
 
                 <div className="p-4 border-t space-y-3">
-                  <Link
-                    href="/launch"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="block"
-                  >
-                    <Button variant="outline" className="w-full">
-                      Early Access
-                    </Button>
-                  </Link>
                   <Link
                     href="/demo"
                     onClick={() => setIsMobileMenuOpen(false)}
