@@ -65,20 +65,6 @@ export function Hero() {
               </a>
             </div>
 
-            {/* Social proof */}
-            <div className="flex flex-col sm:flex-row items-center gap-3 text-sm text-gray-500 justify-center lg:justify-start">
-              <div className="flex -space-x-2">
-                {[1, 2, 3, 4].map((i) => (
-                  <div
-                    key={i}
-                    className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-violet-400 border-2 border-white flex items-center justify-center text-white text-xs font-medium"
-                  >
-                    {String.fromCharCode(64 + i)}
-                  </div>
-                ))}
-              </div>
-              <span>Join 500+ HR leaders on the waitlist</span>
-            </div>
           </motion.div>
 
           {/* Dashboard Mockup */}
